@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Smart Linkify (with Settings Menu)
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Horyzontalhoror/user_script
 // @version      2.0
 // @description  Converts all types of URLs into links. Can be taught new patterns via a menu.
-// @author       You
+// @author       Horyzontalhoror
 // @match        *://*/*
 // @grant        GM_setValue
 // @grant        GM_getValue

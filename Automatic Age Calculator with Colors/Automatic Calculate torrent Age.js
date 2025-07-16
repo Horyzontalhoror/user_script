@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Automatic Age Calculator with Colors
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Horyzontalhoror/user_script
 // @version      1.1
 // @description  Calculates and displays the age (time difference) from a date found on the page with color-coding.
-// @author       You
-// @match        https://1337x.to
+// @author       Horyzontalhoror
+// @match        https://1337x.to/
 // @grant        none
 // ==/UserScript==
 

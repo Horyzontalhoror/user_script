@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YTS.mx - Copy Magnet Button
 // @name:id      YTS.mx - Tombol Salin Magnet
-// @namespace    https://github.com/Horyzontalhoror/yts_copymagnet
+// @namespace    https://github.com/Horyzontalhoror/user_script
 // @version      2.1
 // @description  Adds a "Copy Magnet" button to every movie quality on YTS.mx for easy access.
 // @description:id Menambahkan tombol "Salin Magnet" di setiap kualitas film YTS.mx untuk menyalin tautan magnet dengan mudah.
@@ -12,7 +12,7 @@
 // @match        https://yts.am/movies/*
 // @match        https://yts.ag/movies/*
 // @grant        GM_setClipboard
-// @icon         https://raw.githubusercontent.com/Horyzontalhoror/yts_copymagnet/main/icon.png
+// @icon         https://raw.githubusercontent.com/Horyzontalhoror/user_script/refs/heads/master/yts_CopyMagnet/icon.png
 // @tags         YTS.mx, magnet, torrent
 // ==/UserScript==
 
