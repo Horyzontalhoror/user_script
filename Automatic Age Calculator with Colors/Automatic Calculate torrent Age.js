@@ -4,7 +4,7 @@
 // @version      1.1
 // @description  Calculates and displays the age (time difference) from a date found on the page with color-coding.
 // @author       You
-// @match        https://1337x.to
+// @match        https://1337x.to/
 // @grant        none
 // ==/UserScript==
 
