@@ -703,32 +703,51 @@ Fitur dasar yang diuji:
   // get data
   function getInfo() {
     if (infoCache) return infoCache;
+
     const url = location.href;
     const isTitle = url.includes("/title/tt");
     const isName = url.includes("/name/nm");
+
     let info = {};
 
     if (isTitle) {
+
       const jsonLd = $('script[type="application/ld+json"]').first().html();
+      const ogTitle = $('meta[property="og:title"]').attr("content");
+
       try {
+
         const data = JSON.parse(jsonLd);
+
         info.ttid = url.match(/tt\d+/)[0];
-        info.title = htmlDecode(data.name || "");
+
+        let titleEN = ogTitle
+          ? ogTitle.replace(/\s*\(\d{4}\).*$/, "").trim()
+          : null;
+
+        info.title = htmlDecode(titleEN || data.name || "");
+
         info.year = data.datePublished?.split("-")[0] || "";
+
       } catch {
+
         GM_notification({
           text: "Failed to parse movie data",
           title: "IMDb+"
         });
+
         return null;
+
       }
     }
 
     if (isName) {
       const rawName = $("h1").first().text().trim();
       const name = rawName.replace(/\s*\([IVXLCDM]+\)\s*$/i, "").trim() || rawName;
+
       const match = url.match(/nm\d+/);
       if (!match) return null;
+
       info.nmid = match[0];
       info.name = name;
     }
