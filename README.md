@@ -18,18 +18,6 @@ Untuk menggunakan skrip ini, Anda memerlukan manajer userscript yang terpasang d
 
 ---
 
-## 📜 Daftar Skrip
-
-Berikut adalah skrip yang tersedia saat ini, masing-masing dengan fungsionalitas uniknya:
-
-#### 1. 🔢 Automatic Calculate torrent Age (1337x.to)
-
-#### 2. 🔗 Smart Linkify
-
-#### 3. 🧲 YTS.mx - Magnet Link Enhancer
-
----
-
 ## 🤝 Kontribusi
 
 Saran dan masukan sangat kami hargai! Jika Anda menemukan bug atau memiliki ide untuk perbaikan, jangan ragu untuk membuka _issue_ atau mengajukan _pull request_.
