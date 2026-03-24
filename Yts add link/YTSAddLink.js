@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YTS Add Link
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  Menampilkan link VidSource, Adult, Subtitle dan Trakt.tv dengan opsi enable/disable
 // @author       You
 // @match        https://yts.mx/movies/*
@@ -11,6 +11,8 @@
 // @grant        GM_config
 // @grant        none
 // @require      https://openuserjs.org/src/libs/sizzle/GM_config.min.js
+// @downloadURL https://github.com/Horyzontalhoror/user_script/raw/refs/heads/master/Yts%20add%20link/YTSAddLink.js
+// @updateURL   https://github.com/Horyzontalhoror/user_script/raw/refs/heads/master/Yts%20add%20link/YTSAddLink.js
 // ==/UserScript==
 
 (function() {

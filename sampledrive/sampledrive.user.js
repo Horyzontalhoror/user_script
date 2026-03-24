@@ -1,12 +1,15 @@
 // ==UserScript==
 // @name         Modify SampleDrive
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Modifies Page.
 // @author       Doby_Don
 // @icon          https://www.sampledrive.org/favicon.ico
 // @match        https://www.sampledrive.org/*
 // @grant        none
+// @run-at       document-end
+// @downloadURL   https://github.com/Horyzontalhoror/user_script/raw/refs/heads/master/sampledrive/sampledrive.user.js
+// @updateURL     https://github.com/Horyzontalhoror/user_script/raw/refs/heads/master/sampledrive/sampledrive.user.js
 // ==/UserScript==
 
 (function() {
