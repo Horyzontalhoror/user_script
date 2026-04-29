@@ -1307,6 +1307,11 @@ Fitur dasar yang diuji:
           href: `https://wilfmovies.com/?s=${q}`,
           icon: "https://wilfmovies.com/favicon.ico",
         },
+        {
+          key: "erogarga",
+          href: `https://www.erogarga.com/?s=${q}`,
+          icon: "https://www.erogarga.com/wp-content/uploads/2023/04/favicon-32x32-2.webp",
+        },
       ],
     };
   }
