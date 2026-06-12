@@ -22,8 +22,8 @@
 // @grant        GM_setValue
 // @grant        GM_setClipboard
 // @run-at       document-start
-// @updateURL    https://raw.githubusercontent.com/Horyzontalhoror/user_script/refs/heads/master/IMDB/IMDb%2B.v1.2.x.js
-// @downloadURL  https://raw.githubusercontent.com/Horyzontalhoror/user_script/refs/heads/master/IMDB/IMDb%2B.v1.2.x.js
+// @updateURL    https://raw.githubusercontent.com/Horyzontalhoror/user_script/refs/heads/master/IMDB/IMDb%2B.user.js
+// @downloadURL  https://raw.githubusercontent.com/Horyzontalhoror/user_script/refs/heads/master/IMDB/IMDb%2B.user.js
 // @noframes
 // ==/UserScript==
 
