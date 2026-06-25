@@ -1,3 +1,4 @@
 # file gitignore
 Backup.js
-IMDB_test.js
+IMDB_test.user.js
+IMDb.user.js
