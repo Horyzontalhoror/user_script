@@ -1,23 +1,20 @@
 ## Changelog — IMDb+
 
 Versi semantik ditulis dalam bentuk MAJOR.MINOR.PATCH, dengan:
-1. Tambah angka versi MAJOR jika membuat perubahan API yang tidak lagi cocok dengan versi sebelumnya.
+1. Tambah angka versi MAJOR jika membuat perubahan kode yang tidak lagi cocok dengan versi sebelumnya.
 2. Tambah angka versi MINOR jika menambah fitur tanpa membuat versi lama tidak bisa digunakan.
 3. Tambah angka versi PATCH jika ada perbaikan bug tanpa membuat versi lama tidak bisa digunakan.
 4. Tambahan label dan versi sebelum rilis atau info tambahan tersedia sebagai ekstensi dari format MAJOR.MINOR.PATCH.
 
-v1.4.0 — Peningkatan Pengalaman & Otomatisasi Pengaturan (Rencana Kedepannya)
-Perbaikan & Peningkatan:
-- Menambahkan tombol Reset ke Default di menu pengaturan.
-- Menambahkan fitur Ekspor/Impor pengaturan (JSON).
-- Menambahkan tooltip deskriptif di setiap opsi pengaturan.
-- Tema baru: AMOLED dan High Contrast.
-- Menambahkan animasi transisi ringan pada popup.
-- Memisahkan modul settings.js agar kode lebih modular.
-- Menambahkan mode debug (menampilkan log di console).
+v2.0.0
+- Baru      : integirtas ke TMDB
+- perbaikan : Cache icon
+- baru      : warna backround untuk kategori
+- baru      : data scraping untuk TMDB
+- baru      : link baru untuk function build
 
 v1.4.1
-- add 10 link emblemb baru untuk movie dan tv
+- tambahkan: 10 link emblemb baru untuk movie dan tv
 
 v1.4.0
 - fix, add & update link
